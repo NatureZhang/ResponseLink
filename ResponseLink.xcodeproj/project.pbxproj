@@ -14,7 +14,12 @@
 		F4566AB71DDCB3410094A597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4566AB61DDCB3410094A597 /* Assets.xcassets */; };
 		F4566ABA1DDCB3410094A597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4566AB81DDCB3410094A597 /* LaunchScreen.storyboard */; };
 		F4566AC31DDCB4AA0094A597 /* SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566AC21DDCB4AA0094A597 /* SuperView.m */; };
-		F4566AC91DDCB7230094A597 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566AC81DDCB7230094A597 /* UIButton+Extension.m */; };
+		F4566ACC1DDE080C0094A597 /* UIView+HitExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566ACB1DDE080C0094A597 /* UIView+HitExtension.m */; };
+		F4566ACF1DDE08FF0094A597 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566ACE1DDE08FF0094A597 /* ViewA.m */; };
+		F4566AD21DDE09070094A597 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566AD11DDE09070094A597 /* ViewB.m */; };
+		F4566AD51DDE09100094A597 /* ViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566AD41DDE09100094A597 /* ViewC.m */; };
+		F4566AD81DDE09170094A597 /* ViewD.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566AD71DDE09170094A597 /* ViewD.m */; };
+		F4566ADB1DDE09210094A597 /* ViewE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4566ADA1DDE09210094A597 /* ViewE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +35,18 @@
 		F4566ABB1DDCB3410094A597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4566AC11DDCB4AA0094A597 /* SuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperView.h; sourceTree = "<group>"; };
 		F4566AC21DDCB4AA0094A597 /* SuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperView.m; sourceTree = "<group>"; };
-		F4566AC71DDCB7230094A597 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
-		F4566AC81DDCB7230094A597 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		F4566ACA1DDE080C0094A597 /* UIView+HitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitExtension.h"; sourceTree = "<group>"; };
+		F4566ACB1DDE080C0094A597 /* UIView+HitExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitExtension.m"; sourceTree = "<group>"; };
+		F4566ACD1DDE08FF0094A597 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
+		F4566ACE1DDE08FF0094A597 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
+		F4566AD01DDE09070094A597 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
+		F4566AD11DDE09070094A597 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
+		F4566AD31DDE09100094A597 /* ViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewC.h; sourceTree = "<group>"; };
+		F4566AD41DDE09100094A597 /* ViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewC.m; sourceTree = "<group>"; };
+		F4566AD61DDE09170094A597 /* ViewD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewD.h; sourceTree = "<group>"; };
+		F4566AD71DDE09170094A597 /* ViewD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewD.m; sourceTree = "<group>"; };
+		F4566AD91DDE09210094A597 /* ViewE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewE.h; sourceTree = "<group>"; };
+		F4566ADA1DDE09210094A597 /* ViewE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewE.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +85,18 @@
 				F4566AB11DDCB3410094A597 /* ViewController.m */,
 				F4566AC11DDCB4AA0094A597 /* SuperView.h */,
 				F4566AC21DDCB4AA0094A597 /* SuperView.m */,
-				F4566AC71DDCB7230094A597 /* UIButton+Extension.h */,
-				F4566AC81DDCB7230094A597 /* UIButton+Extension.m */,
+				F4566ACD1DDE08FF0094A597 /* ViewA.h */,
+				F4566ACE1DDE08FF0094A597 /* ViewA.m */,
+				F4566AD01DDE09070094A597 /* ViewB.h */,
+				F4566AD11DDE09070094A597 /* ViewB.m */,
+				F4566AD31DDE09100094A597 /* ViewC.h */,
+				F4566AD41DDE09100094A597 /* ViewC.m */,
+				F4566AD61DDE09170094A597 /* ViewD.h */,
+				F4566AD71DDE09170094A597 /* ViewD.m */,
+				F4566AD91DDE09210094A597 /* ViewE.h */,
+				F4566ADA1DDE09210094A597 /* ViewE.m */,
+				F4566ACA1DDE080C0094A597 /* UIView+HitExtension.h */,
+				F4566ACB1DDE080C0094A597 /* UIView+HitExtension.m */,
 				F4566AB31DDCB3410094A597 /* Main.storyboard */,
 				F4566AB61DDCB3410094A597 /* Assets.xcassets */,
 				F4566AB81DDCB3410094A597 /* LaunchScreen.storyboard */,
@@ -159,11 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4566AC91DDCB7230094A597 /* UIButton+Extension.m in Sources */,
+				F4566AD51DDE09100094A597 /* ViewC.m in Sources */,
+				F4566ACF1DDE08FF0094A597 /* ViewA.m in Sources */,
 				F4566AC31DDCB4AA0094A597 /* SuperView.m in Sources */,
+				F4566AD81DDE09170094A597 /* ViewD.m in Sources */,
+				F4566ACC1DDE080C0094A597 /* UIView+HitExtension.m in Sources */,
 				F4566AB21DDCB3410094A597 /* ViewController.m in Sources */,
+				F4566ADB1DDE09210094A597 /* ViewE.m in Sources */,
 				F4566AAF1DDCB3410094A597 /* AppDelegate.m in Sources */,
 				F4566AAC1DDCB3410094A597 /* main.m in Sources */,
+				F4566AD21DDE09070094A597 /* ViewB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +340,7 @@
 				F4566AC01DDCB3410094A597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

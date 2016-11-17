@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "SuperView.h"
-#import "UIButton+Extension.h"
+#import "UIView+HitExtension.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *hitBtn;

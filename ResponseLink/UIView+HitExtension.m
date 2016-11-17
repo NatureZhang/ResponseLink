@@ -1,16 +1,14 @@
 //
-//  UIButton+Extension.m
+//  UIView+HitExtension.m
 //  ResponseLink
 //
-//  Created by 张东 on 16/11/16.
+//  Created by 张东 on 16/11/17.
 //  Copyright © 2016年 __Nature__. All rights reserved.
 //
 
-#import "UIButton+Extension.h"
+#import "UIView+HitExtension.h"
 #import <objc/runtime.h>
-
-@implementation UIButton (Extension)
-
+@implementation UIView (HitExtension)
 static const NSString *KEY_HIT_TEST_EDGE_INSETS = @"HitTestEdgeInsets";
 
 -(void)setHitTestEdgeInsets:(UIEdgeInsets)hitTestEdgeInsets {
@@ -28,15 +26,13 @@ static const NSString *KEY_HIT_TEST_EDGE_INSETS = @"HitTestEdgeInsets";
 }
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
-    if(UIEdgeInsetsEqualToEdgeInsets(self.hitTestEdgeInsets, UIEdgeInsetsZero) ||       !self.enabled || self.hidden) {
-        return [super pointInside:point withEvent:event];
-    }
     
     CGRect relativeFrame = self.bounds;
     CGRect hitFrame = UIEdgeInsetsInsetRect(relativeFrame, self.hitTestEdgeInsets);
     
+    NSLog(@"%@__%d", self, CGRectContainsPoint(hitFrame, point));
+    
     return CGRectContainsPoint(hitFrame, point);
 }
-
 
 @end
